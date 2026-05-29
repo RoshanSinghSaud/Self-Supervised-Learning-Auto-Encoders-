@@ -6,11 +6,13 @@ Core Philosophy: "The data is the supervision." By solving "pretext tasks," mode
 
 🛠️ Project Evolution
 01. Basic Autoencoders (AE):
+
   Target: MNIST (28×28)
   Concept: A bottleneck architecture (Encoder-Decoder) that learns a compressed latent representation to reconstruct the input.
   Key Learning: Understanding dimensionality reduction and the "Information Bottleneck."
 
 02. Masked Autoencoders (MAE):
+
   Target: CIFAR-10 (32×32×3)
   Concept: Based on the Vision Transformer (ViT) architecture. We mask 75% of image patches and challenge the Transformer to "imagine" the missing pixels.
   Key Learning: Implementation of random masking logic, patch-based reconstruction, and scaling Transformers for generative tasks.
